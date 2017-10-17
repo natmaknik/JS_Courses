@@ -1,0 +1,52 @@
+console.log ("dkjvd");
+var name = "Nataliya Maksymenko";
+name;
+var age = 26;
+age;
+var str = "My name is \"Nataliya\". I'm 26." ;
+str;
+var template = 'I am ${age}';
+template;
+var age = 26;
+var template = 'I am ${age}';
+template;
+var template = `I am ${age}`;
+template;
+var logic = true;
+var logic = false;
+var nothing = null;
+nothing;
+var name = `My name is Nata.`;
+name;
+var number = 88;
+number;
+var object = false;
+object;
+var text = `My name is ${name}, I am ${age} years old, and my answer is ${object}`;
+text;
+var person = {};
+var person = {
+    name: "Natali",
+    age: 26
+};
+person;
+person.surname = "Maksymenko";
+person;
+person["year"] = 1991;
+"name" in object;
+"name" in person;
+"tot" in person;
+var arr = [1,2,3,4,5];
+arr;
+arr[2];
+var tyt = [];
+tyt [0] = 9;
+tyt [0];
+tyt [100] = 6;
+tyt;
+var t = [1,2,3];
+delete t[1];
+t;
+delete person.age;
+person.age;
+age in person
