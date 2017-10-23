@@ -50,3 +50,63 @@ t;
 delete person.age;
 person.age;
 age in person
+
+//Lesson 2
+var obj = {
+    inside: {
+        name:"foo"
+    }
+};
+var name = obj.name;  //"foo"
+name = 9;
+
+var int = obj.inside;
+int.age = 90;
+console.log(int);
+console.log(obj);
+
+
+var first = 90;
+var second = 11;
+
+console.log(first%second*3); //6
+
+var t = 90;
+t++;
+console.log(t);
+
+var t = 0;
+var number = ++t; //1
+
+var t = 0;
+var elsenumber = t++; //0
+
+
+"A" > "a"; //false
+
+"aA" < "ab"; //true
+
+90 == "90"; //true
+90=== "90"; //false
+
+null==0; //false
+null >=0; //true
+null>0; //false
+
+var result = "t" *7;
+result != NaN; //true
+
+var obj = {age:90};
+var objElse = {age:90};
+obj === objElse //false
+obj.age === objElse.age; //true
+var obj1 = objElse
+obj1 === objElse; //true
+
+// prompt ("Enter value");
+//var r = prompt ("Enterter value"); // "6"
+//console.log(+r); //6
+//isNaN(r) //false
+
+var t = +prompt ("Enter value");
+console.log(t%2==0);
