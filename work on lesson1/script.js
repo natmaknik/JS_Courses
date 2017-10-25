@@ -110,3 +110,61 @@ obj1 === objElse; //true
 
 var t = +prompt ("Enter value");
 console.log(t%2==0);
+
+
+
+//Lesson 3
+
+count = prompt ("Enter number");
+do {
+    prompt ("Enter number");
+    count = prompt ("Enter number");
+    count = count +1;
+} while (count >5 && count<5);
+
+
+var statement = 90;
+statement ==90 ? console.log ("true") : console.log("false");
+
+prompt ("Enter age");
+
+
+var t = prompt ("enter age");
+console.log(t);
+
+alert((18<age && 70>age) ? alert ("Welcome") : alert("Not allowed"));
+
+if (age>18&&age<70) {
+
+else
+    if (age == 50)
+        }
+ else {
+        alert ("Welcome"
+    })
+};
+
+var age = 89;
+while (age<=90) {
+    console.log(age);
+    age++;
+};
+
+var arr = [];
+var i = 0;
+while(arr.length <=99) {
+   arr[i] = i;
+   i++;
+}
+
+do {
+    console.log(count);
+    count +=2;
+
+}
+while (count <10 && count % 2 ==0 && count !==0)
+
+
+var arr = [1,2,3,4];
+for (var t in arr){
+    console.log (t, arr[t]);
