@@ -38,6 +38,64 @@ person["year"] = 1991;
 "tot" in person;
 var arr = [1,2,3,4,5];
 arr;
+
+// Lesson 4
+
+var str = "My age: 35, I love dogs, my name is Lily";
+var u = str.indexOf("age:");
+var g = str.indexOf (",", u);
+var t = str.slice(1,6);
+var i = str.replace ();
+
+
+
+/*var s = prompt ("Enter name last_name");
+var u = s.split(" ");
+alert ("Hello " + u[1] + "you have a cool name " + u[0]);*/
+
+
+/*var str = prompt ("Enter your name");
+var t = str.indexOf('L');
+console.log(t);*/
+
+
+/*
+function tt (tt1, tt2) {
+return tt1*tt2;
+}
+console.log (tt (4,5));
+
+var tt = tt(4,5);
+*/
+
+
+
+
+
+
+
+
+/*var foo = 90;
+function name () {
+    console.log (foo); //90
+    function name2() {
+        console.lof(foo); //90
+    }
+    var to = "Name";
+    wndow.as=0; // outside the function
+}
+name();
+console.log(to); //undefined
+
+
+var name = function() {
+    console.log(foo);
+
+    function name2() {
+        console.lof(foo);
+    }
+}*/
+
 arr[2];
 var tyt = [];
 tyt [0] = 9;
