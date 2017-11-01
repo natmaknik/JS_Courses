@@ -226,3 +226,71 @@ while (count <10 && count % 2 ==0 && count !==0)
 var arr = [1,2,3,4];
 for (var t in arr){
     console.log (t, arr[t]);
+
+    // Lesson 5
+
+// Task 1
+/*function createUser() {
+    this.name = prompt ("Enter your name");
+}
+
+var userList = [];
+for (var i=0; i<3; i++) {
+    var obj = {};
+    obj.createUser = createUser;
+    obj.createUser();
+    userList.push(obj);
+}
+console.log (userList);*/
+
+// Task2
+/*
+function double(number) {
+    return number *2;
+}
+function doubleTriple(number) {
+    var count = 0;
+
+    return function (number) {
+        count++;
+        return function () {
+
+        }
+    }
+}
+var doActionDoubleTriple = doubleTriple();
+doActionDoubleTriple(9); //5*2*3 / counter ==1*/
+
+// Task 3
+
+/*function isOdd (number, success, fail) {
+    if (number %2 !==0) {
+    if (typeof success === "function") {
+        success();
+    }
+    } else {
+        fail();
+    }
+}
+
+isOdd (8, function() {
+    alert("true");
+}, function() {
+    alert("false")
+})*/
+    // DOM
+    //Task 1
+for (var i=0;i<document.children.length; i++) {
+    console.log(document.children[i]);
+    
+    //Task 2
+    for (var i=0; i<document.body.children.length; i++) {
+    console.log(document.body.children[i]);
+
+if (document.body.children[i].nodeType ===8) 
+alert ("is comment")
+}
+    
+    //Task3
+    
+}
