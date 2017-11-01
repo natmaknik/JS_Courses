@@ -1,3 +1,5 @@
+//Lesson 1
+
 console.log ("dkjvd");
 var name = "Nataliya Maksymenko";
 name;
@@ -39,77 +41,11 @@ person["year"] = 1991;
 var arr = [1,2,3,4,5];
 arr;
 
-// Lesson 4
-
-var str = "My age: 35, I love dogs, my name is Lily";
-var u = str.indexOf("age:");
-var g = str.indexOf (",", u);
-var t = str.slice(1,6);
-var i = str.replace ();
 
 
-
-/*var s = prompt ("Enter name last_name");
-var u = s.split(" ");
-alert ("Hello " + u[1] + "you have a cool name " + u[0]);*/
-
-
-/*var str = prompt ("Enter your name");
-var t = str.indexOf('L');
-console.log(t);*/
-
-
-/*
-function tt (tt1, tt2) {
-return tt1*tt2;
-}
-console.log (tt (4,5));
-
-var tt = tt(4,5);
-*/
-
-
-
-
-
-
-
-
-/*var foo = 90;
-function name () {
-    console.log (foo); //90
-    function name2() {
-        console.lof(foo); //90
-    }
-    var to = "Name";
-    wndow.as=0; // outside the function
-}
-name();
-console.log(to); //undefined
-
-
-var name = function() {
-    console.log(foo);
-
-    function name2() {
-        console.lof(foo);
-    }
-}*/
-
-arr[2];
-var tyt = [];
-tyt [0] = 9;
-tyt [0];
-tyt [100] = 6;
-tyt;
-var t = [1,2,3];
-delete t[1];
-t;
-delete person.age;
-person.age;
-age in person
 
 //Lesson 2
+
 var obj = {
     inside: {
         name:"foo"
@@ -227,10 +163,76 @@ var arr = [1,2,3,4];
 for (var t in arr){
     console.log (t, arr[t]);
 
+    
+ // Lesson 4
+
+var str = "My age: 35, I love dogs, my name is Lily";
+var u = str.indexOf("age:");
+var g = str.indexOf (",", u);
+var t = str.slice(1,6);
+var i = str.replace ();
+
+
+
+var s = prompt ("Enter name last_name");
+var u = s.split(" ");
+alert ("Hello " + u[1] + "you have a cool name " + u[0]);
+
+
+var str = prompt ("Enter your name");
+var t = str.indexOf('L');
+console.log(t);
+
+
+
+function tt (tt1, tt2) {
+return tt1*tt2;
+}
+console.log (tt (4,5));
+
+var tt = tt(4,5);
+
+
+var foo = 90;
+function name () {
+    console.log (foo); //90
+    function name2() {
+        console.lof(foo); //90
+    }
+    var to = "Name";
+    wndow.as=0; // outside the function
+}
+name();
+console.log(to); //undefined
+
+
+var name = function() {
+    console.log(foo);
+
+    function name2() {
+        console.lof(foo);
+    }
+}
+
+arr[2];
+var tyt = [];
+tyt [0] = 9;
+tyt [0];
+tyt [100] = 6;
+tyt;
+var t = [1,2,3];
+delete t[1];
+t;
+delete person.age;
+person.age;
+age in person
+   
+    
+    
     // Lesson 5
 
 // Task 1
-/*function createUser() {
+function createUser() {
     this.name = prompt ("Enter your name");
 }
 
@@ -241,10 +243,10 @@ for (var i=0; i<3; i++) {
     obj.createUser();
     userList.push(obj);
 }
-console.log (userList);*/
+console.log (userList);
 
 // Task2
-/*
+
 function double(number) {
     return number *2;
 }
@@ -259,11 +261,11 @@ function doubleTriple(number) {
     }
 }
 var doActionDoubleTriple = doubleTriple();
-doActionDoubleTriple(9); //5*2*3 / counter ==1*/
+doActionDoubleTriple(9); //5*2*3 / counter ==1
 
 // Task 3
 
-/*function isOdd (number, success, fail) {
+function isOdd (number, success, fail) {
     if (number %2 !==0) {
     if (typeof success === "function") {
         success();
@@ -277,9 +279,12 @@ isOdd (8, function() {
     alert("true");
 }, function() {
     alert("false")
-})*/
+})
+    
+    
     // DOM
     //Task 1
+    
 for (var i=0;i<document.children.length; i++) {
     console.log(document.children[i]);
     
@@ -291,6 +296,4 @@ if (document.body.children[i].nodeType ===8)
 alert ("is comment")
 }
     
-    //Task3
-    
-}
+
