@@ -297,3 +297,54 @@ alert ("is comment")
 }
     
 
+    
+    
+    //Lesson 6
+
+/*console.log (document.getElementById("result")); //id
+console.log (document.getElementsByClassName("name")); //class
+console.log (document.querySelector("div"));
+console.log (document.querySelector("#name")); //id
+console.log (document.querySelector(".name")); //class
+
+
+var t = prompt ("Enter your name");
+
+var elh1 = document.createElement ("h1");
+document.body.innerHTML = elh1;
+document.body.appendChild(elh1);
+
+document.body.innerHTML = "Hello" + prompt ("Enter your name");
+
+document.querySelector("div:nth-child(2)").remove ();
+document.body.remove ();
+
+document.body.removeChild(document.querySelector("div"));
+
+var h1Clone = document.querySelector("h1").cloneNode(true);
+document.body.appendChild(h1Clone);
+
+
+document.body.insertBefore (g, document.querySelector("h1"));*/
+
+
+
+/*var t = +prompt ("How many elements?..");
+var g = document.createElement("div");
+for (var i=0; i<=t; i++) {
+    var h1Clone = g.cloneNode(true);
+    document.body.appendChild( h1Clone);
+}
+
+
+
+document.querySelector("h1").setAttribute("h1", "fjev");*/
+
+
+
+/*document.querySelector("button").addEventListener( "click", function (){
+ console.log ("Welcome!") ;
+ var t = prompt ("Enter your name");
+ var g = t + ", nice to meet you";
+ console.log (g);
+});*/
