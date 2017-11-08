@@ -350,4 +350,37 @@ document.querySelector("h1").setAttribute("h1", "fjev");*/
 });*/
 
     
-    
+    //Lesson 7
+var fir = document.getElementById("clickFirst");
+var sec = document.getElementById("clickSecond");
+function clickOnSecondButton () {
+    console.log ('Button clicked');
+}
+fir.addEventListener ('click', function () {
+    sec.removeEventListener ("click", clickOnSecondButton)
+});
+sec.addEventListener ('click', clickOnSecondButton);
+
+
+var h2 = document.getElementById("h2");
+h2.addEventListener ("click", function () {
+    console.log(this.innerTtext = "new button");
+})
+
+var clickFirst = document.getElementById("clickFirst");
+var text = document.getElementById("text");
+text.addEventListener("keypress", function (event) {
+    if (isNaN(event.key)) {
+        event.preventDefault();
+    }
+})
+
+var button = document.querySelector("button");
+var input1 = document.getElementById("1");
+var input2 = document.getElementById("2")
+var option1 = document.getElementById("11")
+var option2 = document.getElementById("22")
+button.addEventListener ("click", function (){
+
+    if (input1.value != "" && input2.value !="" && )
+        })
