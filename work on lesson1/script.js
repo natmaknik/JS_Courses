@@ -384,3 +384,15 @@ button.addEventListener ("click", function (){
 
     if (input1.value != "" && input2.value !="" && )
         })
+
+        button.addEventListener("click", function(){
+    if (text.value !== "" && search.value !== "" && select.value !== "") {
+        alert("You're good to go");
+        console.log("Everything is correct");
+        var a = document.getElementById("text").value + " " + document.getElementById("search").value;
+        console.log(a);
+    } else {
+        alert("Please fill all fields");
+        console.log("Wrong");
+    }
+});
