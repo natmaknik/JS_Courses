@@ -396,3 +396,43 @@ button.addEventListener ("click", function (){
         console.log("Wrong");
     }
 });
+
+    
+    
+   var h1 = document.querySelector("h1");
+   var countIntervals = 0;
+   var timer = setInterval(function () {
+       countIntervals++;
+       if (countIntervals == 10) {
+           clearInterval(timer);
+           h1.innerHTML = "Time end!";
+           console.log (h1.innerHTML)
+       } console.log (90)
+   }, 1000)
+
+
+
+
+    setTimeout(function () {
+        alert (document.getElementById("input").value);
+    }, 80000)
+
+
+
+
+    var t = document.getElementById ("2b");//ul
+    var g = document.getElementById ("g"); //button
+
+    t.addEventListener("click", function(e) {
+console.log (e, this, e.target,e.target.parentNode);
+        if (e.target.parentNode.nodeName === "LI"){
+e.stopPropagation();
+e.target.parentNode.remove();
+}
+    })
+
+    g.addEventListener("click", function () {
+var li = document.createElement("li");
+li.innerHTML = "Item 9 <span>x</span>";
+t.appendChild(li.cloneNode(true));
+    });
