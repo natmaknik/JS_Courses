@@ -397,7 +397,7 @@ button.addEventListener ("click", function (){
     }
 });
 
-    
+    // Lesson 8
     
    var h1 = document.querySelector("h1");
    var countIntervals = 0;
