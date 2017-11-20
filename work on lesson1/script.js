@@ -436,3 +436,70 @@ var li = document.createElement("li");
 li.innerHTML = "Item 9 <span>x</span>";
 t.appendChild(li.cloneNode(true));
     });
+    
+    
+    // Lesson 10
+
+//Promise
+/*var num = +prompt ("Enter number");
+var abs = new Promise (function (resolve, reject) {
+    if  ( num%2===0) {
+        resolve()
+    } else {
+        reject()
+    }
+});
+
+abs.then (
+    function () {
+        console.log ('even')
+    },
+    function () {
+        console.log ('odd')
+    }
+);*/
+
+
+/*
+var abs = new Promise (function (resolve, reject) {
+    setTimeout(function () {
+        var x = +prompt('x');
+        if (typeof x === "number") {
+            resolve(x)
+        } else {
+            reject(x)
+        }
+    }, 3000)
+});
+
+abs
+    .then (
+    function (number) {
+        console.log ('than1', number);
+        return number*2;
+    }
+    )
+    .then(
+    function (number) {
+        console.log ('than2', number);
+        return number*3;
+
+    }
+);
+abs.catch(
+    function (number) {
+        console.log ("Error", number);
+    }
+);*/
+
+
+/*var object = {
+    prop: 90,
+    step1: function () {
+     //...
+     return this;
+    },
+    step2: function () {
+        return this;
+    }
+};*/
